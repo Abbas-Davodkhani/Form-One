@@ -1,6 +1,26 @@
+*{
+    box-sizing: border-box;
+   
+}
 body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    padding: 20px;
     background-image: url('images/backgroundbody.jpg');
     /* background-position: center center; */
     background-repeat: no-repeat;
-    /* background-size: cover; */       
+    background-size: cover;       
+}
+
+#content{
+    width: 60%;
+    height: 537px;
+    border: 1px solid transparent;
+    border-radius: 2%;
+    background-color: dodgerblue;
+    opacity: 0.4;
+    margin: 20px auto;
 }
