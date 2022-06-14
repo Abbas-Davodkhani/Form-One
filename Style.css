@@ -20,7 +20,7 @@ body{
     height: 537px;
     border: 1px solid transparent;
     border-radius: 2%;
-    background-color: dodgerblue;
-    opacity: 0.4;
+    background-color: rgba(114, 148, 212, 0.7);
+   
     margin: 20px auto;
 }
