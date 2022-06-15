@@ -6,53 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <title>Form 1</title>
-    
 </head>
 <body>
     <div id="container">
         <div id="content">
-            <h2 id="title">Registration form</h2>
+            <h2 id="title">Registration Form</h2>
+
+            <!-- Start Form -->
             <form>
-                <label for="">Name</label>
-                
-                
-                <input type="text">               
-                <input type="text">
-                <br >
-                <label for="">First Name</label>
-                <label for="">Last Name</label>
-                <br>
-                <label for="">Company</label>
-                <input type="text">
+                <!-- Form items Name -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Name</label>
+                    </div>
+
+                    <div class="input-section">
+                        <input type="text"  class="double-input" />  
+                        <input type="text"  class="double-input" />  
+                        <br >
+                        <label class="double-label">First Name</label>
+                        <label>Last Name</label>
+                    </div>
+                </div>
                
-                <br>
-                <label for="">Email</label>
-                <input type="text">
+                <!-- Form items Company -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Company</label>
+                    </div>
+
+                    <div class="input-section">
+                        <input type="text" class="single-input"/>  
+                        
+                    </div>
+                </div>
+                 <!-- Form items Email -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Email</label>
+                    </div>
+
+                    <div class="input-section">
+                        <input type="email" class="single-input"/>  
+                        
+                    </div>
+                </div>
+                <!-- Form items Phone -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Phone</label>
+                    </div>
+
+                    <div class="input-section">
+                        <input type="text" class="double-input" id="area-code"/>  
+                        <input type="text" class="double-input" >
+                        <br >
+                        <label class="double-label">Area Code</label>
+                        <label>Phone Number</label>
+                    </div>
+                </div>
+                <!-- Form items Subject -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Subject</label>
+                    </div>
+
+                    <div class="input-section">
+                        <select name="" id="options" class="single-input">
+                            <option>---- Choose Option ----</option>
+                            <option value="0">Paris</option>
+                            <option value="1">London</option>
+                            <option value="2">Rome</option>
+                            <option value="3">Berlin</option>
+                        </select>  
+                        
+                    </div>
+                </div>
                 
-                <br>
-                <label for="">Phone</label>
-                <input type="text">
-                <input type="text">
-                <br >
-                <label for="">Area Code</label>
-                <label for="">Phone Number</label>
-                <br>
-                <label for="">Subject</label>
-                <Select>
-                    <option>---Choose Option----</option>
-                    <option value="0">T1</option>
-                    <option value="1">T2</option>
-                    <option value="2">T3</option>
-                    <option value="3">T4</option>
-                </Select>
-                <br>
-                <label for="">Are you beginner ?</label>
-                <br>
-                <input type="radio" name="beginner">
-                <input type="radio" name="beginner">
-                <br>
-                <input type="button" value="Register">
+                <!-- Form Items Beginner -->
+                <div class="form-items">
+                    <div class="label-section">
+                        <label class="main-labels">Are you beginner ? </label>
+                    </div>
+
+                    <div class="input-section beginner">
+                        
+                        <input type="radio" name="beginner"/>  
+                        <label>Yes</label>
+                        <input type="radio"  name="beginner">
+                        <label>No</label>
+                    </div>
+                </div>
+
+                <!-- Form Items Beginner -->
+                <div id="button-section">
+                  
+                   <button>
+                        Register
+                   </button>
+                    
+                </div>
             </form>
+            <!-- End Form -->
         </div>
     </div>
    
